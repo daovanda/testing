@@ -7,7 +7,7 @@ Bài toán: Kiểm tra điều kiện tuyển Nghĩa vụ Quân sự
 import pytest
 from t1 import check_eligibility
 
-# ── Giá trị nominal – tất cả 4 điều kiện ĐẠT ──────────────────────────
+# Giá trị nominal – tất cả 4 điều kiện ĐẠT 
 NOM_AGE    = 21       # C1: 18 ≤ 21 ≤ 25       → True
 NOM_BMI    = 22.0     # C2: 18.0 ≤ 22.0 ≤ 30.0 → True
 NOM_VISION = -0.5     # C3: |-0.5| = 0.5 < 1.5  → True
